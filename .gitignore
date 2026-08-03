@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE settings
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Soft-CSQD input data
+n2/
+2Fe2S/
+data/
+
+# Calculation outputs
+results/
+result/
+outputs/
+output/
+figures/
+
+# Numerical and serialized data
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv
+
+# HPC output files
+*.log
+*.out
+*.err
+*.o[0-9]*
+*.e[0-9]*
+
+# Temporary files
+*.tmp
+*.bak

@@ -1,0 +1,6 @@
+joblib==1.5.3
+kmodes==0.12.2
+numpy==2.4.4
+pyscf==2.13.0
+qiskit-addon-sqd==0.12.1
+stepmix==2.2.3
