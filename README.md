@@ -4,22 +4,22 @@ This archive contains the source code used for the soft cluster-adaptive sample-
 
 ## Folder structure
 
-- `csqd/`  
+- `soft_csqd/csqd/`  
   Contains the core CSQD implementation, including configuration handling, sample processing, particle-number recovery, cluster-aware subsampling, selected-CI diagonalization, diagnostics, and result serialization.
 
-- `csqd/clustering/`  
+- `soft_csqd/csqd/clustering/`  
   Contains the clustering modules used in this study. The supported methods are hard K-Modes, fuzzy K-Modes, hard Bernoulli mixture model (BMM), and soft BMM. Automatic cluster-number selection modules are not included in this manuscript-oriented version.
 
-- `examples/`  
+- `soft_csqd/examples/`  
   Contains helper scripts for chemistry-related input preparation used by the example workflows.
 
-- `run_n2_soft_csqd.py`  
+- `soft_csqd/run_n2_soft_csqd.py`  
   Provides the workflow runner for the N2 bond-dissociation calculations.
 
-- `run_2fe2s_soft_csqd.py`  
+- `soft_csqd/run_2fe2s_soft_csqd.py`  
   Provides the workflow runner for the 2Fe-2S calculations.
 
-- `csqd_paper.py`  
+- `soft_csqd/csqd_paper.py`  
   Provides a manuscript-oriented compatibility entry point for running the soft-CSQD workflow through the original paper-style API.
 
 - `requirements.txt`  
