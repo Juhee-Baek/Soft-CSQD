@@ -118,3 +118,9 @@ python -m soft_csqd.run_2fe2s_soft_csqd \
 ## Citation
 
 Please cite the associated article and the repository or archive DOI for this code package.
+
+
+## License
+
+This project is licensed under the Apache License 2.0. See the
+[LICENSE](LICENSE) file for details.
