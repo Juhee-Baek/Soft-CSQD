@@ -1,6 +1,6 @@
-# Code for Soft Cluster-Adaptive Sample-Based Quantum Diagonalization
+# Code for Soft Cluster-Adaptive Sample-Based Quantum Diagonalization: A Hybrid Quantum–Classical Algorithm Across Weak and Strong Correlation Regimes
 
-This archive contains the source code used for the soft cluster-adaptive sample-based quantum diagonalization (soft-CSQD) workflow. The code was organized for manuscript use by retaining the hard- and soft-clustering procedures used in the study and removing the automatic cluster-number selection components.
+This repository contains the source code used for the Soft Cluster-Adaptive Sample-Based Quantum Diagonalization (Soft-CSQD) workflow described in the associated manuscript. The code implements the clustering, recovery, subspace construnction, and projected diagonalization procedures used in the study.
 
 ## Folder structure
 
